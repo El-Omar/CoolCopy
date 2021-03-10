@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main id="ccpopup">
+      <section class="wrap--popup">
+        <header>
+          <h1>CoolCopy</h1>
+        </header>
+        <article class="copy-commands">
+          <!-- Image || Video -->
+          <div class="copy-command">
+            <strong class="command-text">
+              Image or video
+            </strong>
+            <button id="copy_imageorvideo" class="command-btn">
+              C + Click 
+            </button>
+          </div>
+
+          <!-- Set of data -->
+          <div class="copy-command">
+            <strong class="command-text">
+              Dataset
+            </strong>
+            <button id="copy_dataset" class="command-btn">
+              S + Click 
+            </button>
+          </div>
+
+          <!-- Form fields -->
+          <div class="copy-command">
+            <strong class="command-text">
+              Form fields
+            </strong>
+            <button id="copy_formfields" class="command-btn">
+              F + Click
+            </button>
+          </div>
+          
+          <!-- HTML element -->
+          <div class="copy-command">
+            <strong class="command-text">
+              HTML Element
+            </strong>
+            <button id="copy_htmlelement" class="command-btn">
+              H + Click
+            </button>
+          </div>
+
+          <div class="paste-btn__wrap">
+            <button id="pasteBtn">PASTE!</button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

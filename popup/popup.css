@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+:root {
+  --red: #f02a42;
+  --black: #122029;
+}
+
+body {
+  font-family: Nunito;
+  color: var(--black);
+  background: none;
+}
+
+.wrap--popup {
+  width: 320px;
+  /* box-shadow: 0 0 12px 3px #ccc; */
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.wrap--popup header {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.copy-command {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 8px;
+}
+
+.command-text {
+  font-size: 18px;
+}
+
+.command-btn, #pasteBtn {
+  width: 140px;
+  height: 40px;
+  padding: 6px 8px;
+  background: none;
+  outline: none;
+  border: 2px solid var(--red); 
+  font-size: 16px;
+  border-radius: 6px;
+  box-shadow: 0 3px 4px 1px #ccc;
+  cursor: pointer;
+}
+
+.command-btn:hover {
+  background: var(--red);
+  color: white;
+}
+
+.command-btn:active {
+  font-size: 15px;
+}
+
+#pasteBtn {
+  width: 220px;
+  margin: 10px auto;
+  padding: 6px 8px;
+  outline: none;
+  border: 2px solid var(--red);
+  border-radius: 6px;
+  background: var(--red);
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 3px 4px 1px #ccc;
+}
+
+.paste-btn__wrap {
+  display: flex;
+  justify-content: center;
+}
